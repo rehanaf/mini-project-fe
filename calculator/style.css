@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #20203F;
+}
+
+.calculator {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#display {
+  color: #FCFCFC;
+  overflow-wrap: break-word;
+  text-align: right;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.buttons {
+  border-radius: 2rem 2rem 0 0;
+  background-color: #FCFCFC;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+  color: #4886E2;
+  text-align: center;
+  aspect-ratio: 1/1;
+  border: 0;
+  background-color: #FCFCFC;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+svg {
+  margin: 1.25rem 1.25rem 0.75rem 0.75rem;
+}
