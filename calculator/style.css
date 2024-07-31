@@ -8,12 +8,17 @@
 
 body {
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
+  max-width: 360px;
+  height: 100vh;
+  position: relative;
   background-color: #20203F;
 }
 
 .calculator {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
